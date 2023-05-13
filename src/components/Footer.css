@@ -1,0 +1,15 @@
+.footer {
+  padding: 25px;
+  background-color: darkseagreen;
+  margin-top: 25px;
+}
+
+.footer a {
+  font-size: 10px;
+}
+
+.footer p {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

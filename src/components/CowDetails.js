@@ -4,8 +4,8 @@ import CowIcon from '../icons/cow.png';
 
 import './CowDetails.css'
 
-const CowDetails = ({post}) => {
-  const [numberOfLikes, setNumberOfLikes] = useState(post.likes);
+const CowDetails = ({likes, name, farmName}) => {
+  const [numberOfLikes, setNumberOfLikes] = useState(likes);
 
   const handleOnClick = () => {
     setNumberOfLikes(numberOfLikes + 1);
@@ -13,8 +13,8 @@ const CowDetails = ({post}) => {
 
   return (
     <div className="cow-details__wrapper">
-      <div>Name: {post.name}</div>
-      <div>Farm: {post.farmName}</div>
+      <div>Name: {name}</div>
+      <div>Farm: {farmName}</div>
       <>
         <button className="cow-details__button" onClick={handleOnClick} id="cow-details__button">
           <img className="cow-details__icon" src={CowIcon} alt="cow-icon" />
