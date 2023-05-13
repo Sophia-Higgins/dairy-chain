@@ -16,10 +16,10 @@ const CowDetails = ({likes, name, farmName}) => {
       <div>Name: {name}</div>
       <div>Farm: {farmName}</div>
       <>
-        <button className="cow-details__button" onClick={handleOnClick} id="cow-details__button">
+        <button className="cow-details__button" onClick={handleOnClick} data-testid="cow-details-button">
           <img className="cow-details__icon" src={CowIcon} alt="cow-icon" />
         </button>
-        <div className="cow-details__likes">{numberOfLikes}</div>
+        <div className="cow-details__likes" data-testid="cow-details-likes">{numberOfLikes}</div>
       </>
     </div>
   )
