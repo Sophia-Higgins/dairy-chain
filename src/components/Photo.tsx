@@ -1,8 +1,6 @@
-import React from 'react';
-
 import './Photo.css';
 
-const Photo = ({displaySrc, name}) => {
+const Photo = ({displaySrc, name}: {displaySrc: string, name: string}) => {
   return (
     <img className="grid-photo" src={displaySrc} alt={name} />
   )

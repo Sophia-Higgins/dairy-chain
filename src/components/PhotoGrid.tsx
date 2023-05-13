@@ -1,5 +1,3 @@
-import React from 'react';
-
 import posts from '../data/posts'
 
 import './PhotoGrid.css'
@@ -17,4 +15,4 @@ const PhotoGrid = () => {
   )
 }
 
-export default PhotoGrid
+export default PhotoGrid;

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import CowIcon from '../icons/cow.png';
 
-import './CowDetails.css'
+import './CowDetails.css';
 
-const CowDetails = ({likes, name, farmName}) => {
+const CowDetails = ({likes, name, farmName}: {likes: number, name: string, farmName: string}) => {
   const [numberOfLikes, setNumberOfLikes] = useState(likes);
 
   const handleOnClick = () => {

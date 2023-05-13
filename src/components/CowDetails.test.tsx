@@ -10,8 +10,8 @@ test('should increment the likes local state value onClick', () => {
   expect(likesElement).toBeInTheDocument();
 
   fireEvent.click(buttonElement);
-  expect(likesElement).toHaveTextContent(6);
+  expect(likesElement).toHaveTextContent("6");
 
   fireEvent.click(buttonElement);
-  expect(likesElement).toHaveTextContent(7);
+  expect(likesElement).toHaveTextContent("7");
 });
