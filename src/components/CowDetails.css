@@ -1,0 +1,31 @@
+.cow-details__wrapper {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.cow-details__button {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 2px;;
+}
+
+.cow-details__button:hover {
+  background-color:greenyellow;
+}
+
+.cow-details__icon {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.cow-details__likes {
+  margin-top: 8px;
+  float: left;
+  margin-left: 5px;
+}
